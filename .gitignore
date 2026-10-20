@@ -1,0 +1,35 @@
+# ---- 本地参考库（自带 .git，不纳入本仓库）----
+/TC264_Library/
+
+# ---- ADS / TASKING 构建输出 ----
+Debug/
+Release/
+*.o
+*.obj
+*.d
+*.lst
+*.src
+*.map
+*.elf
+*.out
+*.hex
+*.mcs
+*.a2l
+*.metadata/
+.metadata/
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+.idea/
+*.swp
+*~
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# ---- 压缩包 / 临时文件 ----
+*.7z
+*.zip
+*.rar
+*.log
+tmp/
